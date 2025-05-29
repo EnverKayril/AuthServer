@@ -2,7 +2,7 @@
 {
     public class ErrorDTO
     {
-        public List<string> Errors { get; private set; }
+        public List<string> Errors { get; private set; } = new List<string>();
         public bool IsShow { get; private set; }
 
         public ErrorDTO()
